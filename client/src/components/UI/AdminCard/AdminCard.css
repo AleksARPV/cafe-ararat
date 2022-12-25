@@ -1,0 +1,86 @@
+.cardAdminContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 281px;
+    height: 346px;
+    border-radius: 5px;
+}
+
+.cardAdminContainerBckgrImg {
+    box-sizing: border-box;
+    width: 100%;
+    z-index: -50;
+}
+
+.cardAdminGoodImg {
+    box-sizing: border-box;
+    position: absolute;
+    top: -40px;
+    height: 200px;
+    z-index: 1;
+}
+
+.cardAdminGoodContainer {
+    position: absolute;
+    z-index: 2;
+    left: 32px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    justify-content: space-between;
+}
+
+.cardAdminGoodHeader {
+    font-family: 'Playfair Display';
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 120%;
+    height: 41px;
+}
+
+.cardAdminGoodDisclaimerText {
+    font-size: .75rem;
+    font-weight: lighter;
+    line-height: 120%;
+    margin-top: 12px;
+    height: 44px;
+}
+
+.cardAdminGoodFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cardAdminGoodFooterText {
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.cardAdminGoodFooterBasket {
+    box-sizing: border-box;
+    width: 48px;
+    height: 36px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.cardAdminGoodFooterBasket:hover {
+    scale: 1.1;
+    transition-duration: 0.4s;
+}
+
+.cardAdminGoodFooterBasket:not(:hover) {
+    transition: 0.4s;
+}
+
+.cardAdminGoodDetails {
+    font-size: .8rem;
+    font-weight: lighter;
+    line-height: 120%;
+}

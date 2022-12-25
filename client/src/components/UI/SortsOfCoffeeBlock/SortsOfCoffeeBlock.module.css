@@ -1,0 +1,54 @@
+.sortsOfCoffeeBlockContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 426px;
+}
+
+.sortsOfCoffeeBlockBckgrImg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -98;
+    width: 100%;
+    height: 426px;
+}
+
+.sortsOfCoffeeBlockHeader {
+    font-family: 'Playfair Display';
+    font-size: 2.375rem;
+    font-weight: bold;
+    line-height: 110%;
+    color: #E29542;
+    margin: 136px 0 54px 92px
+}
+
+.sortsOfCoffeeBlockDescContainer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 92px;
+    padding: 0;
+}
+
+.sortsOfCoffeeBlockDescCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.sortsOfCoffeeBlockDescCardHead {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.sortsOfCoffeeBlockDescCardBody {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 120%;
+}

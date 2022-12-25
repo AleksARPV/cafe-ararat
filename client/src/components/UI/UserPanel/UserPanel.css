@@ -1,0 +1,83 @@
+.panelContainer {
+    width: 1424px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.panelBackgrImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -98;
+    width: 1424px;
+    height: 979px;
+}
+
+.panelLeftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: no-repeat;
+    background-image: url(img/bckgr_side_menu.png);
+    width: 342px;
+    max-height: 743px;
+}
+
+.panelLeftSideUserFoto {
+    box-sizing: border-box;
+    height: 63px;
+    width: 63px;
+    margin-top: 75px;
+}
+
+.panelLeftSideUserName {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 87%;
+}
+
+.panelLeftSideListContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+    margin: 10px 0 150px 59px;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.panelLeftSideListItem {
+    display: flex;
+    flex-direction: row;
+    margin: 18px;
+    cursor: pointer;
+}
+
+.panelLeftSideListItem:hover {
+    scale: 1.4;
+    transition-duration: 0.4s;
+}
+
+.panelLeftSideListItem:not(:hover) {
+    transition: 0.4s;
+}
+
+.panelLeftSideListIcon {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.panelLeftSideListText {
+    display: flex;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 118%;
+    align-self: center;
+    margin: 0;
+}

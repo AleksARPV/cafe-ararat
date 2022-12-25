@@ -1,0 +1,88 @@
+.authContainer {
+    width: 1424px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.authBackgrImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -98;
+    width: 1424px;
+    height: 88vh;
+}
+
+.authFormContainer {
+    margin-top: 15vh;
+    width: 450px;
+}
+
+.authFormHeader {
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+.authBlockFAQDisclaimerContainer {
+    margin: 15px 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.authBlockFAQDisclaimerImg {
+    border: 25px;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.authBlockFAQDisclaimerText {
+    font-size: 0.75rem;
+    font-weight: lighter;
+    line-height: 120%;
+}
+
+.authBlockFAQDisclaimerLink {
+    font-size: 0.75rem;
+    font-weight: lighter;
+    line-height: 120%;
+    color: #E29542;
+    cursor: pointer;
+}
+
+.authBlockFAQDisclaimerLink:hover {
+    transition: 0.4s;
+    color: #cb7918;
+}
+
+.authBlockFAQDisclaimerLink:not(:hover) {
+    transition: 0.4s;
+}
+
+.authToLoginText {
+    color: white;
+    font-size: 0.95rem;
+    margin-right: 7px;
+}
+
+.authToLogin {
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+}
+
+.authToLogin:hover {
+    opacity: 0.5;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.authToLogin:not(:hover) {
+    transition: 0.4s;
+}

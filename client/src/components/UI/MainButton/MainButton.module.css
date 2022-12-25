@@ -1,0 +1,23 @@
+.MainButton {
+    height: 60px;
+    width: 301px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E29542;
+    font-family: 'Arimo';
+    font-weight: bold;
+    font-size: 1.55rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.MainButton:hover {
+    scale: 1.05;
+    transition-duration: 0.4s;
+    box-shadow: 0.4em 0.4em 5px rgba(0, 0, 0, 0.25);
+}
+
+.MainButton:not(:hover) {
+    transition: 0.4s;
+}

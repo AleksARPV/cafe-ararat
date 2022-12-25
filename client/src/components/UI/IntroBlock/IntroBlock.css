@@ -1,0 +1,50 @@
+.introBlockContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 847px;
+}
+
+.introBlockImgBckgr {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -99;
+}
+
+.introBlockH1 {
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 800px;
+    margin: 165px 0 16px 100px;
+    line-height: 110%;
+    font-family: 'Playfair Display'
+}
+
+.introBlockDescription {
+    font-family: 'Arimo';
+    font-size: 1.25rem;
+    max-width: 605px;
+    margin-left: 100px;
+    margin-bottom: 102px;
+    line-height: 130%;
+}
+
+.introBlockCupOfCoffee {
+    position: absolute;
+    right: 0;
+    top: 435px;
+    z-index: 10;
+    box-sizing: border-box;
+    width: 691px;
+    height: 627px;
+}
+
+.introBlockButton {
+    margin-left: 100px;
+    font-family: 'Arimo';
+}

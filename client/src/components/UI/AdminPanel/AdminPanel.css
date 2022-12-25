@@ -1,0 +1,129 @@
+.adminPanelContainer {
+    width: 1424px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.adminPanelBackgrImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -98;
+    width: 1424px;
+    height: 979px;
+}
+
+.adminPanelLeftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: no-repeat;
+    background-image: url(img/bckgr_side_menu.png);
+    width: 342px;
+    max-height: 743px;
+}
+
+.adminPanelLeftSideUserFoto {
+    box-sizing: border-box;
+    height: 63px;
+    width: 63px;
+    margin-top: 75px;
+}
+
+.adminPanelLeftSideUserName {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 87%;
+}
+
+.adminPanelLeftSideListContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+    margin: 10px 0 150px 59px;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.adminPanelLeftSideListItem {
+    display: flex;
+    flex-direction: row;
+    margin: 18px;
+    cursor: pointer;
+}
+
+.adminPanelLeftSideListItem:hover {
+    scale: 1.4;
+    transition-duration: 0.4s;
+}
+
+.adminPanelLeftSideListItem:not(:hover) {
+    transition: 0.4s;
+}
+
+.adminPanelLeftSideListIcon {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.adminPanelLeftSideListText {
+    display: flex;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 118%;
+    align-self: center;
+    margin: 0;
+}
+
+.adminPanelRightSideContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 37px 0 0 50px;
+}
+
+.adminPanelBackButton {
+    box-sizing: border-box;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+
+.adminPanelBackButton:hover {
+    scale: 1.4;
+    transition-duration: 0.4s;
+}
+
+.adminPanelBackButton:not(:hover) {
+    transition: 0.4s;
+}
+
+.adminPanelRightSideContainerItemHeader {
+    margin: 40px 0 68px;
+    font-size: 1.835rem;
+    font-weight: lighter;
+}
+
+.formControlStyles {
+    border: none;
+    border-radius: 0;
+    border-bottom: white 2px solid;
+    background: none;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+
+.formControlStyles:focus {
+    outline: none;
+    background: none;
+    background-color: transparent;
+    color: white;
+}
+

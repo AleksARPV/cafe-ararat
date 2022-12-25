@@ -1,0 +1,45 @@
+.customModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+
+.customModalContent {
+    padding: 25px;
+    width: 382px;
+    min-height: 450px;
+    background-image: url(img/card_bckgr.png);
+    box-sizing: border-box;
+    background: no-repeat;
+    position: relative;
+}
+
+.customModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customModalCloseButton {
+    box-sizing: border-box;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    cursor: pointer;
+}
+
+.customModalCloseButton:hover {
+    scale: 1.5;
+    transition-duration: 0.6s;
+}
+
+.customModalCloseButton:not(:hover) {
+    transition: 0.6s;
+}

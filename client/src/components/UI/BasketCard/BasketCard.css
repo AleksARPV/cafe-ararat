@@ -1,0 +1,44 @@
+.basketCardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 925px;
+    height: 130px;
+    border: 2px white solid;
+    border-radius: 37px;
+    margin-bottom: 42px;
+    padding: 30px 37px 36px 33px;
+}
+
+.basketCardContainerImg {
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 91px;
+}
+
+.basketCardCounterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E29542;
+    width: 110px;
+    height: 35px;
+    border-radius: 37px;
+    padding: 8px 16px;
+}
+
+.basketCardCounterButton {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.basketCardCounterNumber {
+    font-weight: bold;
+    font-size: 1.25rem;
+    align-self: center;
+    justify-self: center;
+}

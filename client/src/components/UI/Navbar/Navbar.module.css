@@ -1,0 +1,101 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.navLogo {
+    box-sizing: border-box;
+    width: 133px;
+    height: 51px;
+    margin: 0 138px 0 86px;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    margin-right: 130px;
+}
+
+.navLinks {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
+
+.navLinks:hover {
+    opacity: 0.5;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.navLinks:not(:hover) {
+    transition: 0.4s;
+}
+
+.navTelContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-right: 50px;
+    width: 560px;
+}
+
+.navTelIcon {
+    box-sizing: border-box;
+    width: 15px;
+    height: 18px;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+
+.navTelText {
+    font-size: 1.15rem;
+    line-height: 130%;
+}
+
+.navLinkLogIcon {
+    margin-right: 23px;
+}
+
+.navLinkBasketIcon {
+    margin-right: 99px;
+}
+
+.navLoginIcon {
+    box-sizing: border-box;
+    width: 19px;
+    height: 20px;
+}
+
+.navLoginIcon:hover {
+    scale: 1.4;
+    transition-duration: 0.4s;
+}
+
+.navLoginIcon:not(:hover) {
+    transition: 0.4s;
+}
+
+.navBasketIcon {
+    box-sizing: border-box;
+    width: 22px;
+    height: 20px;
+}
+
+.navBasketIcon:hover {
+    scale: 1.4;
+    transition-duration: 0.4s;
+}
+
+.navBasketIcon:not(:hover) {
+    transition: 0.4s;
+}

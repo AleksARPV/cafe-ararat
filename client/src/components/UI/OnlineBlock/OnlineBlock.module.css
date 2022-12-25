@@ -1,0 +1,40 @@
+.onlineBlockContainer {
+    margin-top: -4px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.onlineBlockBckgrImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 628px;
+    z-index: -99;
+}
+
+.onlineBlockHead {
+    font-family: 'Playfair Display';
+    margin: 99px 0 22px 92px;
+    font-size: 2.375rem;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.onlineBlockText {
+    margin: 0 0 33px 92px;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    line-height: 130%;
+    width: 529px;
+}
+
+.onlineBlockTextMotto {
+    margin-left: 92px;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 130%;
+}
