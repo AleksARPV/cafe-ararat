@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="125685ed-adcb-43e7-b672-ab3393aee688" name="Changes" comment="" />
+    <list default="true" id="125685ed-adcb-43e7-b672-ab3393aee688" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +56,7 @@
     "code.cleanup.on.save": "true",
     "javascript.nodejs.core.library.configured.version": "19.1.0",
     "javascript.nodejs.core.library.typings.version": "18.11.15",
-    "last_opened_file_path": "/Users/ascanalex/Desktop/IT_study/_Vladilen cources/Дипломный проект/ararat_cafe/client/src/components/UI/BasketBlock/img",
+    "last_opened_file_path": "/Users/ascanalex/Desktop/IT_study/_Vladilen cources/Дипломный проект/ararat_cafe/server/client",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +70,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/client" />
       <recent name="$PROJECT_DIR$/client/src/components/UI/BasketBlock/img" />
       <recent name="$PROJECT_DIR$/client/src/components/UI/BasketBlock" />
       <recent name="$PROJECT_DIR$/client/src/context" />
       <recent name="$PROJECT_DIR$/client/src/http" />
-      <recent name="$PROJECT_DIR$/client/src/Components/UI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/components/UI/AdminCard/img" />
@@ -119,7 +128,7 @@
       <workItem from="1671776599120" duration="9338000" />
       <workItem from="1671865785071" duration="82000" />
       <workItem from="1671865946874" duration="39176000" />
-      <workItem from="1671943652200" duration="20794000" />
+      <workItem from="1671943652200" duration="28921000" />
     </task>
     <servers />
   </component>
